@@ -1,0 +1,15 @@
+projectName
+===
+Drone Flight Planner
+===
+stack
+===
+ReactJS, Google Maps Cloud API, JS2PDF
+===
+motivation
+===
+My cousin is the offical DJI retailer for drones within Ireland and everyone who flys a drone technically must fill in a flight survey and send it to the nearest air traffic control center.
+===
+description
+===
+A simple walkthrough to fill out the SUA Flight in Controlled Airspace Application Form. Users can click on the map and interact with it select where they wish to take off from which prepopulates a PDF with the data for the UF101 form ready to be sent off. If you wish to test it visit the link below and enter "damo" all lowercase and follow the steps.
