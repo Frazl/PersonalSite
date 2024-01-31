@@ -1,7 +1,7 @@
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faCircleArrowLeft, faCircleArrowRight, faArrowUp, faArrowDown } from '@fortawesome/free-solid-svg-icons'
 import React from 'react';
-import { Person, Sample_Scores_Over_Weeks, Week } from './types';
+import { Person, Week, Weeks } from './types';
 
 interface PersonPosition extends Person {
     x: number
@@ -15,18 +15,31 @@ function sortByScore(people: PersonPosition[]) {
     return people.sort((a, b) => b.score - a.score)
 }
 
-function scoresToPersonPosition(week: Week) {
-    return week.scores.map((day) => {
-        return({name: day.name, score: day.score, x: 0, y:0})
-    })
+function scoresToPersonPosition(ps: Person[]) {
+    return(ps.map((p) => {
+        return {name: p.name, score: p.score, x: 0, y:0}
+    }))
 }
 
-const weeklyScores = Sample_Scores_Over_Weeks
+const defaultDataSource = "https://raw.githubusercontent.com/Frazl/PersonalSite/master/src/components/rankedTable/data.json"
 
 function RankedTable() {
+    const [dataSourceURL, setDataSourceURL] = React.useState(defaultDataSource)
+    const [data, setData]: [Weeks, Function] = React.useState([])
     const [currentDay, setCurrentDay] = React.useState(0)
-    const [currentScores, setCurrentScores] = React.useState(scoresToPersonPosition(weeklyScores[0]))
+    const [currentScores, setCurrentScores]: [PersonPosition[], Function] = React.useState([])
+
+    const [animationSpeed, setAnimationSpeed] = React.useState(15)
     // Render
+
+    React.useEffect(() => {
+        fetch(dataSourceURL).then((resp) => resp.json()).then((js) => {
+            console.log(js[0].scores)
+            setCurrentDay(0)
+            setCurrentScores(sortByScore(scoresToPersonPosition(js[0].scores)))
+            setData(js as Weeks)
+        })
+    }, [dataSourceURL])
     
     React.useEffect(() => {
         const cleanup = setInterval(() => {
@@ -44,7 +57,7 @@ function RankedTable() {
                 }
                 setCurrentScores(newScores)
             }
-        }, 15)
+        }, animationSpeed)
         return () => clearInterval(cleanup)
     }, [currentScores])
     
@@ -65,16 +78,16 @@ function RankedTable() {
     }
 
     const incrementDay = () => {
-        const nextDay = Math.min(weeklyScores.length - 1, currentDay+1)
+        const nextDay = Math.min(data.length - 1, currentDay+1)
         setCurrentDay(nextDay)
-        setScoresToCurrent(weeklyScores[nextDay])
+        setScoresToCurrent(data[nextDay])
         setCurrentScores(sortByScore(currentScores))
     }
 
     const decrementDay = () => {
         const nextDay = Math.max(0, currentDay-1)
         setCurrentDay(nextDay)
-        setScoresToCurrent(weeklyScores[nextDay])
+        setScoresToCurrent(data[nextDay])
         setCurrentScores(sortByScore(currentScores))
 
     }
@@ -82,14 +95,16 @@ function RankedTable() {
   return (
     <div style={{display: 'flex', justifyContent: 'space-around', flexDirection: 'column', color: '#7D7B89', paddingTop: '1em'}}>
         <div style={{display: 'flex', justifyContent: 'space-around', flexDirection: 'column', paddingBottom: '1em'}}>
-            <div style={{margin: 'auto'}}>This is an animated ranked table based on the changing of scores over a period of time built for a friend</div>
+            <div style={{margin: 'auto'}}>This is an animated ranked table based on the changing of scores over a period of time that I built in 2 hours for a friend.</div>
             <div style={{margin: 'auto', marginTop: '1em'}}>
-                <label style={{marginRight: '1em'}}>Data Source</label><input style={{maxWidth: '300px'}}></input>
+                <label style={{marginRight: '1em'}}>Data Source</label><input value={dataSourceURL} onChange={(e) => setDataSourceURL(e.target.value)} style={{maxWidth: '300px'}}></input>
                 </div>
+            <div style={{margin: 'auto', marginTop: '1em'}}>
+                <label style={{marginRight: '1em'}}>Animation Speed</label><input type='number' value={animationSpeed} onChange={(e) => setAnimationSpeed(parseInt(e.target.value))} style={{maxWidth: '300px'}}></input>
+            </div>
         </div>
         <div style={{display: 'flex', justifyContent: 'space-around'}}>
             <div style={{display: 'flex'}}>
-                
                 <button onClick={decrementDay} style={{border: 0, backgroundColor: 'transparent', cursor: 'pointer'}}><FontAwesomeIcon icon={faCircleArrowLeft} style={{fontSize: '20px', color: '#EE5C6E'}} /></button>
                 <div>Swap Days</div>
                 <button onClick={incrementDay} style={{border: 0, backgroundColor: 'transparent', cursor: 'pointer'}}><FontAwesomeIcon icon={faCircleArrowRight} style={{fontSize: '20px', color: '#EE5C6E'}} /></button>
@@ -99,7 +114,7 @@ function RankedTable() {
             <table ref={startRef} style={{fontFamily: "'Open Sans', sans-serif"}}>
                 <thead>
                     <tr>
-                        <th style={{textAlign: 'center', width: '100vw', color: '#C2BFD5'}}>Activity Table For Marge</th>
+                        <th style={{textAlign: 'center', width: '100vw', color: '#C2BFD5'}}>{data.length ? data[currentDay].daySubtitle : 'No Data'}</th>
                     </tr>
                 </thead>
                 <tbody>

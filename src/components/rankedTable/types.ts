@@ -11,7 +11,7 @@ export interface Week {
     scores: Person[]
 }
 
-type Weeks = Week[]
+export type Weeks = Week[]
 
 export const Sample_Scores_Over_Weeks : Weeks = [
     {

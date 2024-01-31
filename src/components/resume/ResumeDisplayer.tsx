@@ -30,7 +30,6 @@ function ResumeDisplayer(props: ResumeDisplayerProps) {
     
   return (
     <div>
-      <input></input>
         <div style={{padding: '1em', display: 'flex', flexDirection: 'row', justifyContent: 'space-around'}}>
             <div style={{display: 'flex', flexDirection: 'column'}}>
                 {'Select a Theme'}

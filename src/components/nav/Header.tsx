@@ -5,13 +5,13 @@ const headerStyle = {
     minHeight: '2em',
     width: '100%',
     display: 'flex',
-    marginTop: '.5em',
-    marginBottom: '1em',
+    marginTop: '1em',
+    marginBottom: '1.5em',
     justifyContent: 'space-around',
 }
 
 const refStyle: React.CSSProperties = {
-  minWidth: '20vw',
+  fontSize: '1.4em',
   display: 'flex',
   justifyContent: 'space-around'
 }
@@ -23,7 +23,7 @@ interface HeaderProps {
 function Header(props: HeaderProps) {
   return (
     <div style={{display: 'flex', flexDirection: 'column'}}>
-      <img src="./SeanFradlLogoWhite.png" alt="Sean Fradl Logo" height="40" width="100" style={{margin: 'auto'}} />
+      <img src="./SeanFradlLogoWhite.png" alt="Sean Fradl Logo" style={{margin: 'auto'}} />
       <div style={headerStyle} className="header">
         <a href="#resume" onClick={() => props.setActiveApp('resume')} style={refStyle}>Resume & Generator</a>
         <a href="#resume" onClick={() => props.setActiveApp('resume')} style={refStyle}>Home</a>

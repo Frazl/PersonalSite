@@ -1,10 +1,10 @@
 import React from 'react'
 
-function plotSine(ctx, xOffset, yOffset) {
+function plotSine(ctx, xOffset, defaultF) {
     var width = ctx.canvas.width;
     var height = ctx.canvas.height;
     ctx.beginPath();
-    ctx.lineWidth = 1;
+    ctx.lineWidth = 1.5;
     ctx.strokeStyle = "rgb(172, 172, 172)";
     
     var x = -2;
@@ -45,7 +45,7 @@ function Sine() {
     const id = Number.parseInt(Math.random() * 1000)
     window.requestAnimationFrame(() => draw(id));
     return(
-        <canvas id={id} width={window.outerWidth} height="25" />
+        <canvas id={id} width={window.outerWidth} height="35" style={{width: 'auto'}} />
     )
 }
 
