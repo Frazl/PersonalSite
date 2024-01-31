@@ -1,1174 +1,1174 @@
 [{
-    "scores": [],
+    "scores": [{
+        "name": "Finnegan",
+        "score": 1
+    }, {
+        "name": "Gannon",
+        "score": 2
+    }, {
+        "name": "Brigo",
+        "score": 4
+    }, {
+        "name": "Dingo",
+        "score": 0
+    }, {
+        "name": "Occy",
+        "score": 2
+    }, {
+        "name": "Dunne",
+        "score": 0
+    }, {
+        "name": "Philly",
+        "score": 0
+    }, {
+        "name": "Conzy",
+        "score": 0
+    }, {
+        "name": "Moloney",
+        "score": 0
+    }, {
+        "name": "Rucko",
+        "score": 3
+    }, {
+        "name": "Mikey",
+        "score": 0
+    }, {
+        "name": "Grant",
+        "score": 0
+    }],
     "daySubtitle": "01-01-24"
 }, {
     "scores": [{
         "name": "Finnegan",
-        "score": "1"
+        "score": 2
     }, {
         "name": "Gannon",
-        "score": "2"
+        "score": 5
     }, {
         "name": "Brigo",
-        "score": "4"
+        "score": 7
     }, {
         "name": "Dingo",
-        "score": "0"
+        "score": 1
     }, {
         "name": "Occy",
-        "score": "2"
+        "score": 5
     }, {
         "name": "Dunne",
-        "score": "0"
+        "score": 0
     }, {
         "name": "Philly",
-        "score": "0"
+        "score": 4
     }, {
         "name": "Conzy",
-        "score": "0"
+        "score": 0
     }, {
         "name": "Moloney",
-        "score": "0"
+        "score": 0
     }, {
         "name": "Rucko",
-        "score": "3"
+        "score": 6
     }, {
         "name": "Mikey",
-        "score": "0"
+        "score": 0
     }, {
         "name": "Grant",
-        "score": "0"
+        "score": 1
     }],
     "daySubtitle": "01-02-24"
 }, {
     "scores": [{
         "name": "Finnegan",
-        "score": "2"
+        "score": 4
     }, {
         "name": "Gannon",
-        "score": "5"
+        "score": 11
     }, {
         "name": "Brigo",
-        "score": "7"
+        "score": 13
     }, {
         "name": "Dingo",
-        "score": "1"
+        "score": 1
     }, {
         "name": "Occy",
-        "score": "5"
+        "score": 7
     }, {
         "name": "Dunne",
-        "score": "0"
+        "score": 4
     }, {
         "name": "Philly",
-        "score": "4"
+        "score": 4
     }, {
         "name": "Conzy",
-        "score": "0"
+        "score": 3
     }, {
         "name": "Moloney",
-        "score": "0"
+        "score": 0
     }, {
         "name": "Rucko",
-        "score": "6"
+        "score": 9
     }, {
         "name": "Mikey",
-        "score": "0"
+        "score": 0
     }, {
         "name": "Grant",
-        "score": "1"
+        "score": 1
     }],
     "daySubtitle": "01-03-24"
 }, {
     "scores": [{
         "name": "Finnegan",
-        "score": "4"
+        "score": 4
     }, {
         "name": "Gannon",
-        "score": "11"
+        "score": 16
     }, {
         "name": "Brigo",
-        "score": "13"
+        "score": 18
     }, {
         "name": "Dingo",
-        "score": "1"
+        "score": 5
     }, {
         "name": "Occy",
-        "score": "7"
+        "score": 8
     }, {
         "name": "Dunne",
-        "score": "4"
+        "score": 7
     }, {
         "name": "Philly",
-        "score": "4"
+        "score": 6
     }, {
         "name": "Conzy",
-        "score": "3"
+        "score": 6
     }, {
         "name": "Moloney",
-        "score": "0"
+        "score": 4
     }, {
         "name": "Rucko",
-        "score": "9"
+        "score": 11
     }, {
         "name": "Mikey",
-        "score": "0"
+        "score": 0
     }, {
         "name": "Grant",
-        "score": "1"
+        "score": 2
     }],
     "daySubtitle": "01-04-24"
 }, {
     "scores": [{
         "name": "Finnegan",
-        "score": "4"
+        "score": 11
     }, {
         "name": "Gannon",
-        "score": "16"
+        "score": 19
     }, {
         "name": "Brigo",
-        "score": "18"
+        "score": 18
     }, {
         "name": "Dingo",
-        "score": "5"
+        "score": 11
     }, {
         "name": "Occy",
-        "score": "8"
+        "score": 10
     }, {
         "name": "Dunne",
-        "score": "7"
+        "score": 8
     }, {
         "name": "Philly",
-        "score": "6"
+        "score": 11
     }, {
         "name": "Conzy",
-        "score": "6"
+        "score": 9
     }, {
         "name": "Moloney",
-        "score": "4"
+        "score": 9
     }, {
         "name": "Rucko",
-        "score": "11"
+        "score": 15
     }, {
         "name": "Mikey",
-        "score": "0"
+        "score": 0
     }, {
         "name": "Grant",
-        "score": "2"
+        "score": 2
     }],
     "daySubtitle": "01-05-24"
 }, {
     "scores": [{
         "name": "Finnegan",
-        "score": "11"
+        "score": 20
     }, {
         "name": "Gannon",
-        "score": "19"
+        "score": 30
     }, {
         "name": "Brigo",
-        "score": "18"
+        "score": 29
     }, {
         "name": "Dingo",
-        "score": "11"
+        "score": 19
     }, {
         "name": "Occy",
-        "score": "10"
+        "score": 17
     }, {
         "name": "Dunne",
-        "score": "8"
+        "score": 16
     }, {
         "name": "Philly",
-        "score": "11"
+        "score": 18
     }, {
         "name": "Conzy",
-        "score": "9"
+        "score": 6
     }, {
         "name": "Moloney",
-        "score": "9"
+        "score": 14
     }, {
         "name": "Rucko",
-        "score": "15"
+        "score": 20
     }, {
         "name": "Mikey",
-        "score": "0"
+        "score": 0
     }, {
         "name": "Grant",
-        "score": "2"
+        "score": 2
     }],
     "daySubtitle": "01-06-24"
 }, {
     "scores": [{
         "name": "Finnegan",
-        "score": "20"
+        "score": 23
     }, {
         "name": "Gannon",
-        "score": "30"
+        "score": 31
     }, {
         "name": "Brigo",
-        "score": "29"
+        "score": 33
     }, {
         "name": "Dingo",
-        "score": "19"
+        "score": 25
     }, {
         "name": "Occy",
-        "score": "17"
+        "score": 19
     }, {
         "name": "Dunne",
-        "score": "16"
+        "score": 25
     }, {
         "name": "Philly",
-        "score": "18"
+        "score": 20
     }, {
         "name": "Conzy",
-        "score": "6"
+        "score": 16
     }, {
         "name": "Moloney",
-        "score": "14"
+        "score": 19
     }, {
         "name": "Rucko",
-        "score": "20"
+        "score": 25
     }, {
         "name": "Mikey",
-        "score": "0"
+        "score": 0
     }, {
         "name": "Grant",
-        "score": "2"
+        "score": 2
     }],
     "daySubtitle": "01-07-24"
 }, {
     "scores": [{
         "name": "Finnegan",
-        "score": "23"
+        "score": 25
     }, {
         "name": "Gannon",
-        "score": "31"
+        "score": 36
     }, {
         "name": "Brigo",
-        "score": "33"
+        "score": 36
     }, {
         "name": "Dingo",
-        "score": "25"
+        "score": 30
     }, {
         "name": "Occy",
-        "score": "19"
+        "score": 23
     }, {
         "name": "Dunne",
-        "score": "25"
+        "score": 31
     }, {
         "name": "Philly",
-        "score": "20"
+        "score": 20
     }, {
         "name": "Conzy",
-        "score": "16"
+        "score": 25
     }, {
         "name": "Moloney",
-        "score": "19"
+        "score": 25
     }, {
         "name": "Rucko",
-        "score": "25"
+        "score": 25
     }, {
         "name": "Mikey",
-        "score": "0"
+        "score": 0
     }, {
         "name": "Grant",
-        "score": "2"
+        "score": 3
     }],
     "daySubtitle": "01-08-24"
 }, {
     "scores": [{
         "name": "Finnegan",
-        "score": "25"
+        "score": 30
     }, {
         "name": "Gannon",
-        "score": "36"
+        "score": 44
     }, {
         "name": "Brigo",
-        "score": "36"
+        "score": 44
     }, {
         "name": "Dingo",
-        "score": "30"
+        "score": 37
     }, {
         "name": "Occy",
-        "score": "23"
+        "score": 27
     }, {
         "name": "Dunne",
-        "score": "31"
+        "score": 37
     }, {
         "name": "Philly",
-        "score": "20"
+        "score": 22
     }, {
         "name": "Conzy",
-        "score": "25"
+        "score": 32
     }, {
         "name": "Moloney",
-        "score": "25"
+        "score": 29
     }, {
         "name": "Rucko",
-        "score": "25"
+        "score": 25
     }, {
         "name": "Mikey",
-        "score": "0"
+        "score": 0
     }, {
         "name": "Grant",
-        "score": "3"
+        "score": 3
     }],
     "daySubtitle": "01-09-24"
 }, {
     "scores": [{
         "name": "Finnegan",
-        "score": "30"
+        "score": 35
     }, {
         "name": "Gannon",
-        "score": "44"
+        "score": 49
     }, {
         "name": "Brigo",
-        "score": "44"
+        "score": 50
     }, {
         "name": "Dingo",
-        "score": "37"
+        "score": 40
     }, {
         "name": "Occy",
-        "score": "27"
+        "score": 33
     }, {
         "name": "Dunne",
-        "score": "37"
+        "score": 38
     }, {
         "name": "Philly",
-        "score": "22"
+        "score": 24
     }, {
         "name": "Conzy",
-        "score": "32"
+        "score": 33
     }, {
         "name": "Moloney",
-        "score": "29"
+        "score": 31
     }, {
         "name": "Rucko",
-        "score": "25"
+        "score": 27
     }, {
         "name": "Mikey",
-        "score": "0"
+        "score": 1
     }, {
         "name": "Grant",
-        "score": "3"
+        "score": 3
     }],
     "daySubtitle": "01-10-24"
 }, {
     "scores": [{
         "name": "Finnegan",
-        "score": "35"
+        "score": 35
     }, {
         "name": "Gannon",
-        "score": "49"
+        "score": 54
     }, {
         "name": "Brigo",
-        "score": "50"
+        "score": 50
     }, {
         "name": "Dingo",
-        "score": "40"
+        "score": 50
     }, {
         "name": "Occy",
-        "score": "33"
+        "score": 35
     }, {
         "name": "Dunne",
-        "score": "38"
+        "score": 43
     }, {
         "name": "Philly",
-        "score": "24"
+        "score": 30
     }, {
         "name": "Conzy",
-        "score": "33"
+        "score": 40
     }, {
         "name": "Moloney",
-        "score": "31"
+        "score": 37
     }, {
         "name": "Rucko",
-        "score": "27"
+        "score": 27
     }, {
         "name": "Mikey",
-        "score": "1"
+        "score": 2
     }, {
         "name": "Grant",
-        "score": "3"
+        "score": 3
     }],
     "daySubtitle": "01-11-24"
 }, {
     "scores": [{
         "name": "Finnegan",
-        "score": "35"
+        "score": 45
     }, {
         "name": "Gannon",
-        "score": "54"
+        "score": 58
     }, {
         "name": "Brigo",
-        "score": "50"
+        "score": 57
     }, {
         "name": "Dingo",
-        "score": "50"
+        "score": 50
     }, {
         "name": "Occy",
-        "score": "35"
+        "score": 39
     }, {
         "name": "Dunne",
-        "score": "43"
+        "score": 47
     }, {
         "name": "Philly",
-        "score": "30"
+        "score": 32
     }, {
         "name": "Conzy",
-        "score": "40"
+        "score": 46
     }, {
         "name": "Moloney",
-        "score": "37"
+        "score": 40
     }, {
         "name": "Rucko",
-        "score": "27"
+        "score": 27
     }, {
         "name": "Mikey",
-        "score": "2"
+        "score": 2
     }, {
         "name": "Grant",
-        "score": "3"
+        "score": 4
     }],
     "daySubtitle": "01-12-24"
 }, {
     "scores": [{
         "name": "Finnegan",
-        "score": "45"
+        "score": 55
     }, {
         "name": "Gannon",
-        "score": "58"
+        "score": 63
     }, {
         "name": "Brigo",
-        "score": "57"
+        "score": 64
     }, {
         "name": "Dingo",
-        "score": "50"
+        "score": 64
     }, {
         "name": "Occy",
-        "score": "39"
+        "score": 47
     }, {
         "name": "Dunne",
-        "score": "47"
+        "score": 56
     }, {
         "name": "Philly",
-        "score": "32"
+        "score": 40
     }, {
         "name": "Conzy",
-        "score": "46"
+        "score": 52
     }, {
         "name": "Moloney",
-        "score": "40"
+        "score": 47
     }, {
         "name": "Rucko",
-        "score": "27"
+        "score": 29
     }, {
         "name": "Mikey",
-        "score": "2"
+        "score": 2
     }, {
         "name": "Grant",
-        "score": "4"
+        "score": 4
     }],
     "daySubtitle": "01-13-24"
 }, {
     "scores": [{
         "name": "Finnegan",
-        "score": "55"
+        "score": 60
     }, {
         "name": "Gannon",
-        "score": "63"
+        "score": 72
     }, {
         "name": "Brigo",
-        "score": "64"
+        "score": 74
     }, {
         "name": "Dingo",
-        "score": "64"
+        "score": 65
     }, {
         "name": "Occy",
-        "score": "47"
+        "score": 52
     }, {
         "name": "Dunne",
-        "score": "56"
+        "score": 60
     }, {
         "name": "Philly",
-        "score": "40"
+        "score": 50
     }, {
         "name": "Conzy",
-        "score": "52"
+        "score": 52
     }, {
         "name": "Moloney",
-        "score": "47"
+        "score": 49
     }, {
         "name": "Rucko",
-        "score": "29"
+        "score": 34
     }, {
         "name": "Mikey",
-        "score": "2"
+        "score": 2
     }, {
         "name": "Grant",
-        "score": "4"
+        "score": 4
     }],
     "daySubtitle": "01-14-24"
 }, {
     "scores": [{
         "name": "Finnegan",
-        "score": "60"
+        "score": 63
     }, {
         "name": "Gannon",
-        "score": "72"
+        "score": 77
     }, {
         "name": "Brigo",
-        "score": "74"
+        "score": 81
     }, {
         "name": "Dingo",
-        "score": "65"
+        "score": 72
     }, {
         "name": "Occy",
-        "score": "52"
+        "score": 56
     }, {
         "name": "Dunne",
-        "score": "60"
+        "score": 64
     }, {
         "name": "Philly",
-        "score": "50"
+        "score": 54
     }, {
         "name": "Conzy",
-        "score": "52"
+        "score": 58
     }, {
         "name": "Moloney",
-        "score": "49"
+        "score": 55
     }, {
         "name": "Rucko",
-        "score": "34"
+        "score": 39
     }, {
         "name": "Mikey",
-        "score": "2"
+        "score": 2
     }, {
         "name": "Grant",
-        "score": "4"
+        "score": 4
     }],
     "daySubtitle": "01-15-24"
 }, {
     "scores": [{
         "name": "Finnegan",
-        "score": "63"
+        "score": 63
     }, {
         "name": "Gannon",
-        "score": "77"
+        "score": 88
     }, {
         "name": "Brigo",
-        "score": "81"
+        "score": 84
     }, {
         "name": "Dingo",
-        "score": "72"
+        "score": 77
     }, {
         "name": "Occy",
-        "score": "56"
+        "score": 59
     }, {
         "name": "Dunne",
-        "score": "64"
+        "score": 68
     }, {
         "name": "Philly",
-        "score": "54"
+        "score": 56
     }, {
         "name": "Conzy",
-        "score": "58"
+        "score": 65
     }, {
         "name": "Moloney",
-        "score": "55"
+        "score": 59
     }, {
         "name": "Rucko",
-        "score": "39"
+        "score": 41
     }, {
         "name": "Mikey",
-        "score": "2"
+        "score": 2
     }, {
         "name": "Grant",
-        "score": "4"
+        "score": 4
     }],
     "daySubtitle": "01-16-24"
 }, {
     "scores": [{
         "name": "Finnegan",
-        "score": "63"
+        "score": 67
     }, {
         "name": "Gannon",
-        "score": "88"
+        "score": 93
     }, {
         "name": "Brigo",
-        "score": "84"
+        "score": 90
     }, {
         "name": "Dingo",
-        "score": "77"
+        "score": 80
     }, {
         "name": "Occy",
-        "score": "59"
+        "score": 66
     }, {
         "name": "Dunne",
-        "score": "68"
+        "score": 70
     }, {
         "name": "Philly",
-        "score": "56"
+        "score": 61
     }, {
         "name": "Conzy",
-        "score": "65"
+        "score": 69
     }, {
         "name": "Moloney",
-        "score": "59"
+        "score": 63
     }, {
         "name": "Rucko",
-        "score": "41"
+        "score": 46
     }, {
         "name": "Mikey",
-        "score": "2"
+        "score": 2
     }, {
         "name": "Grant",
-        "score": "4"
+        "score": 4
     }],
     "daySubtitle": "01-17-24"
 }, {
     "scores": [{
         "name": "Finnegan",
-        "score": "67"
+        "score": 68
     }, {
         "name": "Gannon",
-        "score": "93"
+        "score": 100
     }, {
         "name": "Brigo",
-        "score": "90"
+        "score": 98
     }, {
         "name": "Dingo",
-        "score": "80"
+        "score": 80
     }, {
         "name": "Occy",
-        "score": "66"
+        "score": 69
     }, {
         "name": "Dunne",
-        "score": "70"
+        "score": 77
     }, {
         "name": "Philly",
-        "score": "61"
+        "score": 64
     }, {
         "name": "Conzy",
-        "score": "69"
+        "score": 74
     }, {
         "name": "Moloney",
-        "score": "63"
+        "score": 69
     }, {
         "name": "Rucko",
-        "score": "46"
+        "score": 47
     }, {
         "name": "Mikey",
-        "score": "2"
+        "score": 4
     }, {
         "name": "Grant",
-        "score": "4"
+        "score": 4
     }],
     "daySubtitle": "01-18-24"
 }, {
     "scores": [{
         "name": "Finnegan",
-        "score": "68"
+        "score": 80
     }, {
         "name": "Gannon",
-        "score": "100"
+        "score": 105
     }, {
         "name": "Brigo",
-        "score": "98"
+        "score": 101
     }, {
         "name": "Dingo",
-        "score": "80"
+        "score": 99
     }, {
         "name": "Occy",
-        "score": "69"
+        "score": 77
     }, {
         "name": "Dunne",
-        "score": "77"
+        "score": 77
     }, {
         "name": "Philly",
-        "score": "64"
+        "score": 71
     }, {
         "name": "Conzy",
-        "score": "74"
+        "score": 86
     }, {
         "name": "Moloney",
-        "score": "69"
+        "score": 77
     }, {
         "name": "Rucko",
-        "score": "47"
+        "score": 49
     }, {
         "name": "Mikey",
-        "score": "4"
+        "score": 4
     }, {
         "name": "Grant",
-        "score": "4"
+        "score": 4
     }],
     "daySubtitle": "01-19-24"
 }, {
     "scores": [{
         "name": "Finnegan",
-        "score": "80"
+        "score": 0
     }, {
         "name": "Gannon",
-        "score": "105"
+        "score": 0
     }, {
         "name": "Brigo",
-        "score": "101"
+        "score": 0
     }, {
         "name": "Dingo",
-        "score": "99"
+        "score": 0
     }, {
         "name": "Occy",
-        "score": "77"
+        "score": 0
     }, {
         "name": "Dunne",
-        "score": "77"
+        "score": 0
     }, {
         "name": "Philly",
-        "score": "71"
+        "score": 0
     }, {
         "name": "Conzy",
-        "score": "86"
+        "score": 0
     }, {
         "name": "Moloney",
-        "score": "77"
+        "score": 0
     }, {
         "name": "Rucko",
-        "score": "49"
+        "score": 0
     }, {
         "name": "Mikey",
-        "score": "4"
+        "score": 0
     }, {
         "name": "Grant",
-        "score": "4"
+        "score": 0
     }],
     "daySubtitle": "01-20-24"
 }, {
     "scores": [{
         "name": "Finnegan",
-        "score": "0"
+        "score": 88
     }, {
         "name": "Gannon",
-        "score": "0"
+        "score": 112
     }, {
         "name": "Brigo",
-        "score": "0"
+        "score": 113
     }, {
         "name": "Dingo",
-        "score": "0"
+        "score": 105
     }, {
         "name": "Occy",
-        "score": "0"
+        "score": 84
     }, {
         "name": "Dunne",
-        "score": "0"
+        "score": 81
     }, {
         "name": "Philly",
-        "score": "0"
+        "score": 77
     }, {
         "name": "Conzy",
-        "score": "0"
+        "score": 86
     }, {
         "name": "Moloney",
-        "score": "0"
+        "score": 84
     }, {
         "name": "Rucko",
-        "score": "0"
+        "score": 61
     }, {
         "name": "Mikey",
-        "score": "0"
+        "score": 5
     }, {
         "name": "Grant",
-        "score": "0"
+        "score": 4
     }],
     "daySubtitle": "01-21-24"
 }, {
     "scores": [{
         "name": "Finnegan",
-        "score": "88"
+        "score": 98
     }, {
         "name": "Gannon",
-        "score": "112"
+        "score": 115
     }, {
         "name": "Brigo",
-        "score": "113"
+        "score": 115
     }, {
         "name": "Dingo",
-        "score": "105"
+        "score": 108
     }, {
         "name": "Occy",
-        "score": "84"
+        "score": 91
     }, {
         "name": "Dunne",
-        "score": "81"
+        "score": 88
     }, {
         "name": "Philly",
-        "score": "77"
+        "score": 83
     }, {
         "name": "Conzy",
-        "score": "86"
+        "score": 89
     }, {
         "name": "Moloney",
-        "score": "84"
+        "score": 87
     }, {
         "name": "Rucko",
-        "score": "61"
+        "score": 61
     }, {
         "name": "Mikey",
-        "score": "5"
+        "score": 5
     }, {
         "name": "Grant",
-        "score": "4"
+        "score": 4
     }],
     "daySubtitle": "01-22-24"
 }, {
     "scores": [{
         "name": "Finnegan",
-        "score": "98"
+        "score": 108
     }, {
         "name": "Gannon",
-        "score": "115"
+        "score": 123
     }, {
         "name": "Brigo",
-        "score": "115"
+        "score": 122
     }, {
         "name": "Dingo",
-        "score": "108"
+        "score": 116
     }, {
         "name": "Occy",
-        "score": "91"
+        "score": 93
     }, {
         "name": "Dunne",
-        "score": "88"
+        "score": 95
     }, {
         "name": "Philly",
-        "score": "83"
+        "score": 88
     }, {
         "name": "Conzy",
-        "score": "89"
+        "score": 96
     }, {
         "name": "Moloney",
-        "score": "87"
+        "score": 92
     }, {
         "name": "Rucko",
-        "score": "61"
+        "score": 61
     }, {
         "name": "Mikey",
-        "score": "5"
+        "score": 5
     }, {
         "name": "Grant",
-        "score": "4"
+        "score": 4
     }],
     "daySubtitle": "01-23-24"
 }, {
     "scores": [{
         "name": "Finnegan",
-        "score": "108"
+        "score": 128
     }, {
         "name": "Gannon",
-        "score": "123"
+        "score": 131
     }, {
         "name": "Brigo",
-        "score": "122"
+        "score": 129
     }, {
         "name": "Dingo",
-        "score": "116"
+        "score": 121
     }, {
         "name": "Occy",
-        "score": "93"
+        "score": 103
     }, {
         "name": "Dunne",
-        "score": "95"
+        "score": 101
     }, {
         "name": "Philly",
-        "score": "88"
+        "score": 92
     }, {
         "name": "Conzy",
-        "score": "96"
+        "score": 99
     }, {
         "name": "Moloney",
-        "score": "92"
+        "score": 94
     }, {
         "name": "Rucko",
-        "score": "61"
+        "score": 61
     }, {
         "name": "Mikey",
-        "score": "5"
+        "score": 5
     }, {
         "name": "Grant",
-        "score": "4"
+        "score": 4
     }],
     "daySubtitle": "01-24-24"
 }, {
     "scores": [{
         "name": "Finnegan",
-        "score": "128"
+        "score": 139
     }, {
         "name": "Gannon",
-        "score": "131"
+        "score": 141
     }, {
         "name": "Brigo",
-        "score": "129"
+        "score": 135
     }, {
         "name": "Dingo",
-        "score": "121"
+        "score": 121
     }, {
         "name": "Occy",
-        "score": "103"
+        "score": 113
     }, {
         "name": "Dunne",
-        "score": "101"
+        "score": 102
     }, {
         "name": "Philly",
-        "score": "92"
+        "score": 94
     }, {
         "name": "Conzy",
-        "score": "99"
+        "score": 99
     }, {
         "name": "Moloney",
-        "score": "94"
+        "score": 96
     }, {
         "name": "Rucko",
-        "score": "61"
+        "score": 61
     }, {
         "name": "Mikey",
-        "score": "5"
+        "score": 5
     }, {
         "name": "Grant",
-        "score": "4"
+        "score": 4
     }],
     "daySubtitle": "01-25-24"
 }, {
     "scores": [{
         "name": "Finnegan",
-        "score": "139"
+        "score": 151
     }, {
         "name": "Gannon",
-        "score": "141"
+        "score": 148
     }, {
         "name": "Brigo",
-        "score": "135"
+        "score": 137
     }, {
         "name": "Dingo",
-        "score": "121"
+        "score": 125
     }, {
         "name": "Occy",
-        "score": "113"
+        "score": 113
     }, {
         "name": "Dunne",
-        "score": "102"
+        "score": 109
     }, {
         "name": "Philly",
-        "score": "94"
+        "score": 94
     }, {
         "name": "Conzy",
-        "score": "99"
+        "score": 100
     }, {
         "name": "Moloney",
-        "score": "96"
+        "score": 102
     }, {
         "name": "Rucko",
-        "score": "61"
+        "score": 61
     }, {
         "name": "Mikey",
-        "score": "5"
+        "score": 5
     }, {
         "name": "Grant",
-        "score": "4"
+        "score": 4
     }],
     "daySubtitle": "01-26-24"
 }, {
     "scores": [{
         "name": "Finnegan",
-        "score": "151"
+        "score": 151
     }, {
         "name": "Gannon",
-        "score": "148"
+        "score": 148
     }, {
         "name": "Brigo",
-        "score": "137"
+        "score": 157
     }, {
         "name": "Dingo",
-        "score": "125"
+        "score": 125
     }, {
         "name": "Occy",
-        "score": "113"
+        "score": 120
     }, {
         "name": "Dunne",
-        "score": "109"
+        "score": 109
     }, {
         "name": "Philly",
-        "score": "94"
+        "score": 95
     }, {
         "name": "Conzy",
-        "score": "100"
+        "score": 105
     }, {
         "name": "Moloney",
-        "score": "102"
+        "score": 102
     }, {
         "name": "Rucko",
-        "score": "61"
+        "score": 61
     }, {
         "name": "Mikey",
-        "score": "5"
+        "score": 5
     }, {
         "name": "Grant",
-        "score": "4"
+        "score": 4
     }],
     "daySubtitle": "01-27-24"
 }, {
     "scores": [{
         "name": "Finnegan",
-        "score": "151"
+        "score": 161
     }, {
         "name": "Gannon",
-        "score": "148"
+        "score": 161
     }, {
         "name": "Brigo",
-        "score": "157"
+        "score": 163
     }, {
         "name": "Dingo",
-        "score": "125"
+        "score": 133
     }, {
         "name": "Occy",
-        "score": "120"
+        "score": 120
     }, {
         "name": "Dunne",
-        "score": "109"
+        "score": 112
     }, {
         "name": "Philly",
-        "score": "95"
+        "score": 104
     }, {
         "name": "Conzy",
-        "score": "105"
+        "score": 105
     }, {
         "name": "Moloney",
-        "score": "102"
+        "score": 102
     }, {
         "name": "Rucko",
-        "score": "61"
+        "score": 61
     }, {
         "name": "Mikey",
-        "score": "5"
+        "score": 5
     }, {
         "name": "Grant",
-        "score": "4"
+        "score": 4
     }],
     "daySubtitle": "01-28-24"
 }, {
     "scores": [{
         "name": "Finnegan",
-        "score": "161"
+        "score": 176
     }, {
         "name": "Gannon",
-        "score": "161"
+        "score": 170
     }, {
         "name": "Brigo",
-        "score": "163"
+        "score": 173
     }, {
         "name": "Dingo",
-        "score": "133"
+        "score": 133
     }, {
         "name": "Occy",
-        "score": "120"
+        "score": 120
     }, {
         "name": "Dunne",
-        "score": "112"
+        "score": 113
     }, {
         "name": "Philly",
-        "score": "104"
+        "score": 109
     }, {
         "name": "Conzy",
-        "score": "105"
+        "score": 106
     }, {
         "name": "Moloney",
-        "score": "102"
+        "score": 107
     }, {
         "name": "Rucko",
-        "score": "61"
+        "score": 61
     }, {
         "name": "Mikey",
-        "score": "5"
+        "score": 5
     }, {
         "name": "Grant",
-        "score": "4"
+        "score": 4
     }],
     "daySubtitle": "01-29-24"
 }, {
     "scores": [{
         "name": "Finnegan",
-        "score": "176"
+        "score": 191
     }, {
         "name": "Gannon",
-        "score": "170"
+        "score": 188
     }, {
         "name": "Brigo",
-        "score": "173"
+        "score": 187
     }, {
         "name": "Dingo",
-        "score": "133"
+        "score": 133
     }, {
         "name": "Occy",
-        "score": "120"
+        "score": 120
     }, {
         "name": "Dunne",
-        "score": "113"
+        "score": 118
     }, {
         "name": "Philly",
-        "score": "109"
+        "score": 115
     }, {
         "name": "Conzy",
-        "score": "106"
+        "score": 110
     }, {
         "name": "Moloney",
-        "score": "107"
+        "score": 109
     }, {
         "name": "Rucko",
-        "score": "61"
+        "score": 61
     }, {
         "name": "Mikey",
-        "score": "5"
+        "score": 5
     }, {
         "name": "Grant",
-        "score": "4"
+        "score": 4
     }],
     "daySubtitle": "01-30-24"
 }, {
-    "scores": [{
-        "name": "Finnegan",
-        "score": "191"
-    }, {
-        "name": "Gannon",
-        "score": "188"
-    }, {
-        "name": "Brigo",
-        "score": "187"
-    }, {
-        "name": "Dingo",
-        "score": "133"
-    }, {
-        "name": "Occy",
-        "score": "120"
-    }, {
-        "name": "Dunne",
-        "score": "118"
-    }, {
-        "name": "Philly",
-        "score": "115"
-    }, {
-        "name": "Conzy",
-        "score": "110"
-    }, {
-        "name": "Moloney",
-        "score": "109"
-    }, {
-        "name": "Rucko",
-        "score": "61"
-    }, {
-        "name": "Mikey",
-        "score": "5"
-    }, {
-        "name": "Grant",
-        "score": "4"
-    }],
+    "scores": [],
     "daySubtitle": "01-31-24"
 }]
