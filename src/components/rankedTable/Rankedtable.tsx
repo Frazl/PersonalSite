@@ -8,8 +8,8 @@ interface PersonPosition extends Person {
     y: number
 }
 
-const ROW_HEIGHT = 20
-const STEP = 1;
+const ROW_HEIGHT = 5
+const STEP = 0.25;
 
 function sortByScore(people: PersonPosition[]) {
     return people.sort((a, b) => b.score - a.score)
@@ -29,12 +29,11 @@ function RankedTable() {
     const [currentDay, setCurrentDay] = React.useState(0)
     const [currentScores, setCurrentScores]: [PersonPosition[], Function] = React.useState([])
 
-    const [animationSpeed, setAnimationSpeed] = React.useState(15)
+    const [animationSpeed, setAnimationSpeed] = React.useState(10)
     // Render
 
     React.useEffect(() => {
         fetch(dataSourceURL).then((resp) => resp.json()).then((js) => {
-            console.log(js[0].scores)
             setCurrentDay(0)
             setCurrentScores(sortByScore(scoresToPersonPosition(js[0].scores)))
             setData(js as Weeks)
@@ -46,14 +45,14 @@ function RankedTable() {
             // Close the gap between current position and target position 
             const newScores = [...currentScores]
             for(let i = 0; i < currentScores.length; i++) {
-                let target_x = i * ROW_HEIGHT
-                if (currentScores[i].x > target_x) {
+                let target_y = i * ROW_HEIGHT
+                if (currentScores[i].y > target_y) {
                     // increase 
-                    currentScores[i].x -= STEP
+                    currentScores[i].y -= STEP
                 } 
-                if (currentScores[i].x < target_x) {
+                if (currentScores[i].y < target_y) {
                     // decrease
-                    currentScores[i].x += STEP
+                    currentScores[i].y += STEP
                 }
                 setCurrentScores(newScores)
             }
@@ -93,21 +92,21 @@ function RankedTable() {
     }
 
   return (
-    <div style={{display: 'flex', justifyContent: 'space-around', flexDirection: 'column', color: '#7D7B89', paddingTop: '1em'}}>
+    <div style={{display: 'flex', justifyContent: 'space-around', flexDirection: 'column', color: '#7D7B89', paddingTop: '1em', marginBottom: '2em'}}>
         <div style={{display: 'flex', justifyContent: 'space-around', flexDirection: 'column', paddingBottom: '1em'}}>
             <div style={{margin: 'auto'}}>This is an animated ranked table based on the changing of scores over a period of time that I built in 2 hours for a friend.</div>
             <div style={{margin: 'auto', marginTop: '1em'}}>
                 <label style={{marginRight: '1em'}}>Data Source</label><input value={dataSourceURL} onChange={(e) => setDataSourceURL(e.target.value)} style={{maxWidth: '300px'}}></input>
                 </div>
             <div style={{margin: 'auto', marginTop: '1em'}}>
-                <label style={{marginRight: '1em'}}>Animation Speed</label><input type='number' value={animationSpeed} onChange={(e) => setAnimationSpeed(parseInt(e.target.value))} style={{maxWidth: '300px'}}></input>
+                <label style={{marginRight: '1em'}}>Animation Step Delay</label><input type='number' value={animationSpeed} onChange={(e) => setAnimationSpeed(parseInt(e.target.value))} style={{maxWidth: '300px'}}></input>
             </div>
         </div>
         <div style={{display: 'flex', justifyContent: 'space-around'}}>
             <div style={{display: 'flex'}}>
-                <button onClick={decrementDay} style={{border: 0, backgroundColor: 'transparent', cursor: 'pointer'}}><FontAwesomeIcon icon={faCircleArrowLeft} style={{fontSize: '20px', color: '#EE5C6E'}} /></button>
-                <div>Swap Days</div>
-                <button onClick={incrementDay} style={{border: 0, backgroundColor: 'transparent', cursor: 'pointer'}}><FontAwesomeIcon icon={faCircleArrowRight} style={{fontSize: '20px', color: '#EE5C6E'}} /></button>
+                <button onClick={decrementDay} style={{border: 0, backgroundColor: 'transparent', cursor: 'pointer'}}><FontAwesomeIcon icon={faCircleArrowLeft} style={{fontSize: '2rem', color: '#EE5C6E'}} /></button>
+                <div style={{fontSize: '2rem'}}>Swap Days</div>
+                <button onClick={incrementDay} style={{border: 0, backgroundColor: 'transparent', cursor: 'pointer'}}><FontAwesomeIcon icon={faCircleArrowRight} style={{fontSize: '2rem', color: '#EE5C6E'}} /></button>
             </div>
         </div>
         <div style={{display: 'flex', justifyContent: 'space-around'}}>
@@ -139,14 +138,29 @@ interface RowProps {
 }
 
 function Row(props: RowProps) {
-    const increasing = props.x > (props.position * ROW_HEIGHT) 
-    const decreasing = props.x < (props.position * ROW_HEIGHT)
-    
-    const getBackgroundColor = () => {
+    const [increasing, setIncreasing] = React.useState(0)
+
+    React.useEffect(() => {
+        const increasing = props.y > (props.position * ROW_HEIGHT) 
+        const decreasing = props.y < (props.position * ROW_HEIGHT)
         if (increasing) {
+            setIncreasing(1)
+        } else if (decreasing) {
+            setIncreasing(-1)
+        } else {
+            setTimeout(() => {
+                setIncreasing(0)
+            }, 1000)
+        }
+        
+    }, [props.y, props.position])
+
+
+    const getBackgroundColor = () => {
+        if (increasing === 1) {
             return "hsla(121, 100%, 50%, 1)"
         }
-        if (decreasing) {
+        if (increasing === -1) {
             return "#FF0046"
         }
         if (props.position % 2 == 0) return "#313C4E"
@@ -154,13 +168,13 @@ function Row(props: RowProps) {
     }
 
     return(
-        <tr style={{position: 'absolute', top: props.x + props.heightOffset + (props.position * 10), paddingBottom: '5px', left: '33vw', height: props.height, minWidth: '33vw', borderEndEndRadius: '25px', backgroundColor: getBackgroundColor(), display: 'flex'}}>
-            <td style={{marginLeft: '15px'}}>{props.position + 1}</td>
-            <td style={{marginLeft: '15px', minWidth: '200px', textAlign: 'center'}}>{props.name}</td>
-            <td style={{marginLeft: '15px', minWidth: '40px'}}>{props.score}</td>
+        <tr style={{maxWidth: '500px', margin: 'auto', transform: `translateY(${props.y + (props.position * 2)}px)`, padding: '.2em', borderEndEndRadius: '25px', backgroundColor: getBackgroundColor(), display: 'flex'}}>
+            <td style={{marginLeft: '15px', minWidth: '20%'}}>{props.position + 1}</td>
+            <td style={{marginLeft: '15px', minWidth: '40%', textAlign: 'center'}}>{props.name}</td>
+            <td style={{marginLeft: '15px', minWidth: '10%'}}>{props.score}</td>
             <td style={{marginLeft: '20px'}}>
-                {increasing ? <FontAwesomeIcon icon={faArrowUp} style={{color: '#20273A'}} /> : undefined}
-                {decreasing ? <FontAwesomeIcon icon={faArrowDown} style={{color: '#20273A'}} /> : undefined}
+                {increasing === 1 ? <FontAwesomeIcon icon={faArrowUp} style={{color: '#20273A'}} /> : undefined}
+                {increasing === -1 ? <FontAwesomeIcon icon={faArrowDown} style={{color: '#20273A'}} /> : undefined}
             </td>
         </tr>
     )
