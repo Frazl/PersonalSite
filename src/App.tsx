@@ -15,7 +15,7 @@ function App() {
       <Sine />
       <Header setActiveApp={setActiveApp} />
       <Sine />
-      {activeApp === 'resume' ? <ResumeDisplayer resume={myResume} /> : <RankedTable />}
+      { activeApp === 'rankedTable' ? <RankedTable /> : <ResumeDisplayer resume={myResume} /> }
     </div>
   );
 }
