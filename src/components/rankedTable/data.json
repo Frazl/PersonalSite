@@ -21,10 +21,10 @@
         "name": "Philly",
         "score": 0
     }, {
-        "name": "Conzy",
+        "name": "Moloney",
         "score": 0
     }, {
-        "name": "Moloney",
+        "name": "Conzy",
         "score": 0
     }, {
         "name": "Rucko",
@@ -60,10 +60,10 @@
         "name": "Philly",
         "score": 4
     }, {
-        "name": "Conzy",
+        "name": "Moloney",
         "score": 0
     }, {
-        "name": "Moloney",
+        "name": "Conzy",
         "score": 0
     }, {
         "name": "Rucko",
@@ -99,11 +99,11 @@
         "name": "Philly",
         "score": 4
     }, {
-        "name": "Conzy",
-        "score": 3
-    }, {
         "name": "Moloney",
         "score": 0
+    }, {
+        "name": "Conzy",
+        "score": 3
     }, {
         "name": "Rucko",
         "score": 9
@@ -138,11 +138,11 @@
         "name": "Philly",
         "score": 6
     }, {
-        "name": "Conzy",
-        "score": 6
-    }, {
         "name": "Moloney",
         "score": 4
+    }, {
+        "name": "Conzy",
+        "score": 6
     }, {
         "name": "Rucko",
         "score": 11
@@ -177,10 +177,10 @@
         "name": "Philly",
         "score": 11
     }, {
-        "name": "Conzy",
+        "name": "Moloney",
         "score": 9
     }, {
-        "name": "Moloney",
+        "name": "Conzy",
         "score": 9
     }, {
         "name": "Rucko",
@@ -216,11 +216,11 @@
         "name": "Philly",
         "score": 18
     }, {
-        "name": "Conzy",
-        "score": 6
-    }, {
         "name": "Moloney",
         "score": 14
+    }, {
+        "name": "Conzy",
+        "score": 6
     }, {
         "name": "Rucko",
         "score": 20
@@ -255,11 +255,11 @@
         "name": "Philly",
         "score": 20
     }, {
-        "name": "Conzy",
-        "score": 16
-    }, {
         "name": "Moloney",
         "score": 19
+    }, {
+        "name": "Conzy",
+        "score": 16
     }, {
         "name": "Rucko",
         "score": 25
@@ -294,10 +294,10 @@
         "name": "Philly",
         "score": 20
     }, {
-        "name": "Conzy",
+        "name": "Moloney",
         "score": 25
     }, {
-        "name": "Moloney",
+        "name": "Conzy",
         "score": 25
     }, {
         "name": "Rucko",
@@ -333,11 +333,11 @@
         "name": "Philly",
         "score": 22
     }, {
-        "name": "Conzy",
-        "score": 32
-    }, {
         "name": "Moloney",
         "score": 29
+    }, {
+        "name": "Conzy",
+        "score": 32
     }, {
         "name": "Rucko",
         "score": 25
@@ -372,11 +372,11 @@
         "name": "Philly",
         "score": 24
     }, {
-        "name": "Conzy",
-        "score": 33
-    }, {
         "name": "Moloney",
         "score": 31
+    }, {
+        "name": "Conzy",
+        "score": 33
     }, {
         "name": "Rucko",
         "score": 27
@@ -411,11 +411,11 @@
         "name": "Philly",
         "score": 30
     }, {
-        "name": "Conzy",
-        "score": 40
-    }, {
         "name": "Moloney",
         "score": 37
+    }, {
+        "name": "Conzy",
+        "score": 40
     }, {
         "name": "Rucko",
         "score": 27
@@ -450,11 +450,11 @@
         "name": "Philly",
         "score": 32
     }, {
-        "name": "Conzy",
-        "score": 46
-    }, {
         "name": "Moloney",
         "score": 40
+    }, {
+        "name": "Conzy",
+        "score": 46
     }, {
         "name": "Rucko",
         "score": 27
@@ -489,11 +489,11 @@
         "name": "Philly",
         "score": 40
     }, {
-        "name": "Conzy",
-        "score": 52
-    }, {
         "name": "Moloney",
         "score": 47
+    }, {
+        "name": "Conzy",
+        "score": 52
     }, {
         "name": "Rucko",
         "score": 29
@@ -528,11 +528,11 @@
         "name": "Philly",
         "score": 50
     }, {
-        "name": "Conzy",
-        "score": 52
-    }, {
         "name": "Moloney",
         "score": 49
+    }, {
+        "name": "Conzy",
+        "score": 52
     }, {
         "name": "Rucko",
         "score": 34
@@ -567,11 +567,11 @@
         "name": "Philly",
         "score": 54
     }, {
-        "name": "Conzy",
-        "score": 58
-    }, {
         "name": "Moloney",
         "score": 55
+    }, {
+        "name": "Conzy",
+        "score": 58
     }, {
         "name": "Rucko",
         "score": 39
@@ -606,11 +606,11 @@
         "name": "Philly",
         "score": 56
     }, {
-        "name": "Conzy",
-        "score": 65
-    }, {
         "name": "Moloney",
         "score": 59
+    }, {
+        "name": "Conzy",
+        "score": 65
     }, {
         "name": "Rucko",
         "score": 41
@@ -645,11 +645,11 @@
         "name": "Philly",
         "score": 61
     }, {
-        "name": "Conzy",
-        "score": 69
-    }, {
         "name": "Moloney",
         "score": 63
+    }, {
+        "name": "Conzy",
+        "score": 69
     }, {
         "name": "Rucko",
         "score": 46
@@ -684,11 +684,11 @@
         "name": "Philly",
         "score": 64
     }, {
-        "name": "Conzy",
-        "score": 74
-    }, {
         "name": "Moloney",
         "score": 69
+    }, {
+        "name": "Conzy",
+        "score": 74
     }, {
         "name": "Rucko",
         "score": 47
@@ -723,11 +723,11 @@
         "name": "Philly",
         "score": 71
     }, {
-        "name": "Conzy",
-        "score": 86
-    }, {
         "name": "Moloney",
         "score": 77
+    }, {
+        "name": "Conzy",
+        "score": 86
     }, {
         "name": "Rucko",
         "score": 49
@@ -742,40 +742,40 @@
 }, {
     "scores": [{
         "name": "Finnegan",
-        "score": 0
+        "score": 80
     }, {
         "name": "Gannon",
-        "score": 0
+        "score": 105
     }, {
         "name": "Brigo",
-        "score": 0
+        "score": 101
     }, {
         "name": "Dingo",
-        "score": 0
+        "score": 99
     }, {
         "name": "Occy",
-        "score": 0
+        "score": 77
     }, {
         "name": "Dunne",
-        "score": 0
+        "score": 77
     }, {
         "name": "Philly",
-        "score": 0
-    }, {
-        "name": "Conzy",
-        "score": 0
+        "score": 71
     }, {
         "name": "Moloney",
-        "score": 0
+        "score": 77
+    }, {
+        "name": "Conzy",
+        "score": 86
     }, {
         "name": "Rucko",
-        "score": 0
+        "score": 49
     }, {
         "name": "Mikey",
-        "score": 0
+        "score": 4
     }, {
         "name": "Grant",
-        "score": 0
+        "score": 4
     }],
     "daySubtitle": "01-20-24"
 }, {
@@ -801,11 +801,11 @@
         "name": "Philly",
         "score": 77
     }, {
-        "name": "Conzy",
-        "score": 86
-    }, {
         "name": "Moloney",
         "score": 84
+    }, {
+        "name": "Conzy",
+        "score": 86
     }, {
         "name": "Rucko",
         "score": 61
@@ -840,11 +840,11 @@
         "name": "Philly",
         "score": 83
     }, {
-        "name": "Conzy",
-        "score": 89
-    }, {
         "name": "Moloney",
         "score": 87
+    }, {
+        "name": "Conzy",
+        "score": 89
     }, {
         "name": "Rucko",
         "score": 61
@@ -879,11 +879,11 @@
         "name": "Philly",
         "score": 88
     }, {
-        "name": "Conzy",
-        "score": 96
-    }, {
         "name": "Moloney",
         "score": 92
+    }, {
+        "name": "Conzy",
+        "score": 96
     }, {
         "name": "Rucko",
         "score": 61
@@ -918,11 +918,11 @@
         "name": "Philly",
         "score": 92
     }, {
-        "name": "Conzy",
-        "score": 99
-    }, {
         "name": "Moloney",
         "score": 94
+    }, {
+        "name": "Conzy",
+        "score": 99
     }, {
         "name": "Rucko",
         "score": 61
@@ -957,11 +957,11 @@
         "name": "Philly",
         "score": 94
     }, {
-        "name": "Conzy",
-        "score": 99
-    }, {
         "name": "Moloney",
         "score": 96
+    }, {
+        "name": "Conzy",
+        "score": 99
     }, {
         "name": "Rucko",
         "score": 61
@@ -996,11 +996,11 @@
         "name": "Philly",
         "score": 94
     }, {
-        "name": "Conzy",
-        "score": 100
-    }, {
         "name": "Moloney",
         "score": 102
+    }, {
+        "name": "Conzy",
+        "score": 100
     }, {
         "name": "Rucko",
         "score": 61
@@ -1035,11 +1035,11 @@
         "name": "Philly",
         "score": 95
     }, {
-        "name": "Conzy",
-        "score": 105
-    }, {
         "name": "Moloney",
         "score": 102
+    }, {
+        "name": "Conzy",
+        "score": 105
     }, {
         "name": "Rucko",
         "score": 61
@@ -1074,11 +1074,11 @@
         "name": "Philly",
         "score": 104
     }, {
-        "name": "Conzy",
-        "score": 105
-    }, {
         "name": "Moloney",
         "score": 102
+    }, {
+        "name": "Conzy",
+        "score": 105
     }, {
         "name": "Rucko",
         "score": 61
@@ -1113,11 +1113,11 @@
         "name": "Philly",
         "score": 109
     }, {
-        "name": "Conzy",
-        "score": 106
-    }, {
         "name": "Moloney",
         "score": 107
+    }, {
+        "name": "Conzy",
+        "score": 106
     }, {
         "name": "Rucko",
         "score": 61
@@ -1152,11 +1152,11 @@
         "name": "Philly",
         "score": 115
     }, {
-        "name": "Conzy",
-        "score": 110
-    }, {
         "name": "Moloney",
         "score": 109
+    }, {
+        "name": "Conzy",
+        "score": 110
     }, {
         "name": "Rucko",
         "score": 61
@@ -1169,6 +1169,42 @@
     }],
     "daySubtitle": "01-30-24"
 }, {
-    "scores": [],
+    "scores": [{
+        "name": "Finnegan",
+        "score": 222
+    }, {
+        "name": "Gannon",
+        "score": 215
+    }, {
+        "name": "Brigo",
+        "score": 208
+    }, {
+        "name": "Dingo",
+        "score": 137
+    }, {
+        "name": "Occy",
+        "score": 127
+    }, {
+        "name": "Dunne",
+        "score": 126
+    }, {
+        "name": "Philly",
+        "score": 120
+    }, {
+        "name": "Moloney",
+        "score": 119
+    }, {
+        "name": "Conzy",
+        "score": 113
+    }, {
+        "name": "Rucko",
+        "score": 61
+    }, {
+        "name": "Mikey",
+        "score": 5
+    }, {
+        "name": "Grant",
+        "score": 4
+    }],
     "daySubtitle": "01-31-24"
 }]
